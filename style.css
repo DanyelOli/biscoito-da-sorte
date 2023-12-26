@@ -17,6 +17,10 @@ body {
   height: 100vh;
 }
 
+.hide {
+  display: none;
+}
+
 main {
   background: #FFFFFF;
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.8);
@@ -39,7 +43,7 @@ h1 {
 p {
   font-family: 'DM Sans', sans-serif;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.64rem;
 }
 
 h1,
@@ -47,7 +51,39 @@ p {
   color: rgba(52, 53, 91, 1);
 }
 
+img {
+  width: min(24.88rem 90%);
+}
+
+/* screen 2 */
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 2.7rem;
+  color: rgba(52, 53, 91, 1);
+}
+
+.screen2 p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  background-color: rgba(228, 237, 241, 1);
+  margin-bottom: 1.7rem;
+}
+
+img {
+  width: min(30rem, 90%);
+}
+
 button {
+  width: min(17.4rem, 90% );
+  padding: 1.6rem;
+  background-color: rgba(255, 149, 0, 1);
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+
+  border-radius: .4rem;
   border: none;
-  direction: none;
 }
