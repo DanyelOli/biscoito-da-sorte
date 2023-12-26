@@ -17,6 +17,10 @@ body {
   height: 100vh;
 }
 
+button {
+  cursor: pointer;
+}
+
 .hide {
   display: none;
 }
@@ -51,8 +55,11 @@ p {
   color: rgba(52, 53, 91, 1);
 }
 
-img {
+.screen1 button {
   width: min(24.88rem 90%);
+  padding: .64rem .97rem .17rem .57rem;
+  border: none;
+  background: #FFFFFF;
 }
 
 /* screen 2 */
